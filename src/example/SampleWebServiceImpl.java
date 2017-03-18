@@ -12,6 +12,7 @@ public class SampleWebServiceImpl implements SampleWebService{
     public String sayHelloWorldFrom(String from) {
         String result = "Hello, world, from " + from;
         System.out.println(result);
+        System.err.println("Error world");
         return result;
     }
 
